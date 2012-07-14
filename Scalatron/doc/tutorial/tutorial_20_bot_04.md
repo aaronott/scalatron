@@ -321,8 +321,8 @@ one you operated on. Invoking `map()` on a `List` will result in a new `List`, i
 it on a `Set` will result in a new `Set` and invoking it on a `Map` will result in a
 new `Map`. This is not trivial. The downside is that the type signature of `map()`
 looks scary as hell to people new to Scala. So we won't show it here. But it does what
-you expect it to do and you can for now should use it without worrying about the
-details. You will have absolutely not problem working out the details once you're more
+you expect it to do and you can, for now, use it without worrying about the
+details. You will have absolutely no problem working out the details once you're more
 familiar Scala.
 
 So all that is left for us to do is to somehow tell the compiler that we want the
